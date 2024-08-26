@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script type="text/javascript" src="script.js" defer></script>
+    <title>Sign Up</title>
+</head>
+<body>
+    <div class="wrapper">
+        <h1>Sign Up</h1>
+        <p id="error-message"></p>
+        <form id="form" >
+            <div class="incorrect">
+                <img src="img/person.svg" alt="">
+                <input type="text" name="firstname" id="firstname-input" placeholder="Firstname">
+            </div>
+            <div>
+                <img src="img/mail.svg" alt="">
+                <input type="email" name="email" id="email-input" placeholder="Email">
+            </div>
+            <div>
+                <img src="img/lock.svg" alt="">
+                <input type="password" name="password" id="password-input" placeholder="Password">
+            </div>
+            <div>
+                <img src="img/lock.svg" alt="">
+                <input type="password" name="repeat-password" id="repeat-password-input" placeholder="Repeat-Password">
+            </div>
+            <button type="submit">Sign Up</button>
+        </form>
+        <p>Already have an account? <a href="login.html">Login</a></p>
+    </div>
+</body>
+</html>
